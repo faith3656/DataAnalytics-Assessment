@@ -1,5 +1,6 @@
 -- Q2: Transaction Frequency Analysis
 -- Calculate transaction frequency category for each customer
+
 WITH customer_activity AS (
     SELECT
         sa.owner_id,
