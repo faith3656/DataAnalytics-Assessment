@@ -1,3 +1,5 @@
+-- Q1: High-Value Customers with Multiple Products
+
 SELECT
     u.id AS owner_id,
     COALESCE(u.name, CONCAT_WS(' ', u.first_name, u.last_name)) AS name,
