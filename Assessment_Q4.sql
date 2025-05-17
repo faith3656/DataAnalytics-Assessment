@@ -1,3 +1,5 @@
+-- question 4 Customer Lifetime Value (CLV) Estimation
+
 SELECT
 
     u.id AS customer_id,
