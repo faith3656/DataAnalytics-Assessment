@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "engine": "SQLite with explicit MySQL compatibility shims; MySQL execution not verified",
+  "checks": [
+    "funded product qualification",
+    "duplicate join prevention",
+    "9.5 frequency boundary",
+    "365/366 day inactivity boundary",
+    "new never-funded exclusion",
+    "kobo-to-naira profit conversion",
+    "zero tenure returns NULL",
+    "missing calendar months",
+    "zero denominator MoM handling"
+  ],
+  "positive_inflows_ngn": 7150,
+  "april_to_september_inflows_ngn": 5900,
+  "synthetic": true
+}
