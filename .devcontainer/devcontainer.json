@@ -1,0 +1,15 @@
+{
+  "name": "Financial Customer Analytics demo",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "workspace",
+  "runServices": ["workspace", "mysql", "metabase"],
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Metabase dashboard",
+      "onAutoForward": "notify"
+    }
+  },
+  "remoteUser": "vscode"
+}
